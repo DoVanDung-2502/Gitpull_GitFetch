@@ -1,0 +1,16 @@
+Git fetch 
++ Tải những thay đổi từ remote repo về
++ Không update vào working directory
+
+Sử dụng khi muốn biết remote có gì thay đổi và cần xem xét trước
+
+************
+git pull:
++ THực hiện update trực tiếp vào working directory
++ Merge luôn vào nhánh hiện tại
++ Thay đổi ngay lập tức có thể thấy trong file
+
+Pull từ remote hiện tại: git pull
+pull từ remote và branch cụ thể: git pull [remote] [branch]
+
+git pull thường được dùng khi làm việc một mình và trên một branch
